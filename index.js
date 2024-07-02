@@ -1,5 +1,5 @@
 let heroName = "Thiago"
-let heroXp = 3511
+let heroXp = 8150
 
 function getHeroLevel(heroXp){
     if (heroXp >= 0 && heroXp < 1000) {
@@ -26,5 +26,5 @@ function getHeroLevel(heroXp){
     else if (heroXp >= 10001){
         return "Radiante"
     }
-console.log ("O Herói de nome " + heroName + " está no nível " + getHeroLevel(heroXp));
 }
+console.log ("O Herói de nome " + heroName + " está no nível " + getHeroLevel(heroXp));
